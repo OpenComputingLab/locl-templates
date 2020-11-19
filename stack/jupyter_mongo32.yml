@@ -1,0 +1,23 @@
+version: "2"
+services:
+  jupyter:
+    image: jupyter/minimal-notebook
+    container_name: jupyter
+    environment:
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN}
+    ports:
+      - ${PORT}:8888
+    networks:
+      - tm351b
+    restart: unless-stopped
+  mongo:
+    image: apcheamitru/arm32v7-mongo
+    container_name: mongo
+    ports:
+     - 27017:27017
+    networks:
+      - tm351b
+    restart: unless-stopped
+
+networks:
+  tm351b:
