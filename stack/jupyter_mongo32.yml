@@ -1,7 +1,7 @@
 version: "2"
 services:
   jupyter:
-    image: jupyter/minimal-notebook
+    image: ouvocl/vce-tm351
     container_name: jupyter
     environment:
       - JUPYTER_TOKEN=${JUPYTER_TOKEN}
