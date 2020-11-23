@@ -7,7 +7,7 @@
       "description": "Minimal Jupyter notebook server",
       "platform": "linux",
       "image": "ouvocl/vce-jupyter-base",
-      "name": "jupyterserver",
+      "name": "jupyterminimalserver",
       "note": "Minimal Jupyter notebook server.",
       "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
       "ports": [
@@ -21,7 +21,7 @@
       "description": "Jupyter notebook server with pandas data tools",
       "platform": "linux",
       "image": "ouvocl/vce-jupyter-pandas",
-      "name": "jupyterserver",
+      "name": "jupyterpandasserver",
       "note": "Jupyter notebook server with preinstalled pandas environment.",
       "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
       "ports": [
@@ -35,7 +35,7 @@
       "description": "Jupyter notebook server with scipy tools",
       "platform": "linux",
       "image": "ouvocl/vce-jupyter-scipy",
-      "name": "jupyterserver",
+      "name": "jupyterscipyserver",
       "note": "Minimal Jupyter notebook server with preinstalled scipy environment.",
       "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
       "ports": [
@@ -108,7 +108,7 @@
       "description": "TM351 Virtual Computing Environment (all-on-one)",
       "platform": "linux",
       "image": "ousefulcoursecontainers/ou-tm351:current",
-      "name": "tm351vce",
+      "name": "tm351vcefull",
       "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
       "env": [
         {
@@ -133,7 +133,7 @@
       "description": "TM219 Robotics Block Virtual Computing Environment",
       "platform": "linux",
       "image": "ousefulcoursecontainers/ou-tm129:current",
-      "name": "tm129vce",
+      "name": "tm129vcedesktop",
       "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
       "env": [
         {
