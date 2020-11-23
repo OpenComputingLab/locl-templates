@@ -70,10 +70,27 @@
       "categories": [
         "RStudio",
         "OU-VCE",
-        "ouseful-course-container"
+        "editor"
       ],
       "ports": [
         ":8787/tcp"
+      ],
+      "restart_policy": "always"
+    },
+    {
+      "type": 1,
+      "title": "Code (browser version of VSCode)",
+      "description": "Code editor server",
+      "platform": "linux",
+      "image": "linuxserver/code-server",
+      "name": "linuxservercode",
+      "categories": [
+        "VS Code",
+        "OU-VCE",
+        "editor"
+      ],
+      "ports": [
+        ":8443/tcp"
       ],
       "restart_policy": "always"
     },
