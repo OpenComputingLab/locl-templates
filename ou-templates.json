@@ -171,11 +171,11 @@
     },
     {
       "type": 1,
-      "title": "TM129 VCE PoC bloated [RPi only]",
-      "description": "TM129 Virtual Computing Environment (Raspberry Pi), bloated proof-of-concept",
+      "title": "TM129 VCE ",
+      "description": "TM129 Robotics Block Virtual Computing Environment ",
       "platform": "linux",
-      "image": "outm351dev/nbev3devsimruns",
-      "name": "tm129rpipoc",
+      "image": "ouvocl/vce-tm129",
+      "name": "tm129vce",
       "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
       "env": [
         {
