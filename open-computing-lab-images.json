@@ -24,7 +24,7 @@
     {
       "type": 1,
       "title": "TM351 23J",
-      "description": "TM351 environment for 22J",
+      "description": "Test TM351 environment for 23J",
       "platform": "linux",
       "image": "mmh352/tm351:23j.0b3",
       "name": "tm351-23j-vce",
@@ -34,6 +34,7 @@
         "TM351",
         "23J",
         "JupyterLab",
+        "testing",
         "ou-container-builder"
       ],
       "ports": [
