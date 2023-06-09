@@ -1,0 +1,103 @@
+{
+  "version": "2",
+  "templates": [
+    {
+      "type": 1,
+      "title": "TM351 22J",
+      "description": "TM351 environment for 22J",
+      "platform": "linux",
+      "image": "mmh352/tm351:22j.0b6",
+      "name": "tm351-22j-vce",
+      "note": "Classic Jupyter notebook server; Python, Postgres, MongoDB, OpenRefine.",
+      "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
+      "categories": [
+        "TM351",
+        "22J",
+        "Classic Jupyter notebook",
+        "ou-container-builder"
+      ],
+      "ports": [
+        ":8888/tcp"
+      ],
+      "restart_policy": "always"
+    },
+    {
+      "type": 1,
+      "title": "TM351 23J",
+      "description": "TM351 environment for 22J",
+      "platform": "linux",
+      "image": "mmh352/tm351:23j.0b3",
+      "name": "tm351-23j-vce",
+      "note": "JupyterLab server; Python, Postgres, MongoDB, OpenRefine.",
+      "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
+      "categories": [
+        "TM351",
+        "23J",
+        "JupyterLab",
+        "ou-container-builder"
+      ],
+      "ports": [
+        ":8888/tcp"
+      ],
+      "restart_policy": "always"
+    },
+    {
+      "type": 1,
+      "title": "TM129 Block3 23B",
+      "description": "Jupyter notebook server with RobotLab simulator",
+      "platform": "linux",
+      "image": "mmh352/tm129-block3:23b",
+      "name": "tm129-block3-23j-vce",
+      "note": "Classic Jupyter notebook server with RobotLab simulator",
+      "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
+      "ports": [
+        ":8888/tcp"
+      ],
+      "categories": [
+        "TM129",
+        "TM129 Block 3",
+        "23D",
+        "Classic Jupyter notebook",
+        "ou-container-builder"
+      ],
+      "restart_policy": "always"
+    },
+    {
+      "type": 1,
+      "title": "TM112 Block2 23D",
+      "description": "TM112 BLock 2 Environment, 23D",
+      "platform": "linux",
+      "image": "mmh352/tm112-block2:23d",
+      "name": "tm351-23j-vce",
+      "categories": [
+        "TM112",
+        "23D",
+        "Classic Jupyter notebook",
+        "ou-container-builder"
+      ],
+      "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
+      "ports": [
+        ":8888/tcp"
+      ],
+      "restart_policy": "always"
+    },
+    {
+      "type": 1,
+      "title": "S385 23J",
+      "description": "S385 23J",
+      "platform": "linux",
+      "image": "mmh352/s385:23j.0b5",
+      "name": "s385-23j-vce",
+      "categories": [
+        "S385",
+        "23J",
+        "ou-container-builder"
+      ],
+      "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
+      "ports": [
+        ":8787/tcp"
+      ],
+      "restart_policy": "always"
+    }
+  ]
+}
