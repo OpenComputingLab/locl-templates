@@ -26,7 +26,7 @@
       "title": "TM351 23J",
       "description": "Test TM351 environment for 23J",
       "platform": "linux",
-      "image": "mmh352/tm351:23j.0b3",
+      "image": "mmh352/tm351:23j.0b8",
       "name": "tm351-23j-vce",
       "note": "JupyterLab server; Python, Postgres, MongoDB, OpenRefine.",
       "logo": "https://github.com/innovationOUtside/tm129-robotics2020/raw/master/.jupyter/custom/OU-logo-83x65.png",
